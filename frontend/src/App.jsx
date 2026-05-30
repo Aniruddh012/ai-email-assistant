@@ -10,7 +10,7 @@ function App() {
       setLoading(true);
 
       const response = await fetch(
-        "http://localhost:5000/generate-reply",
+        "http://https://ai-email-assistant-jc21.onrender.com/generate-reply",
         {
           method: "POST",
           headers: {
